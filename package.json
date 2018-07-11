@@ -1,8 +1,8 @@
 {
-  "name": "floatplane-cli",
+  "name": "fpm-cli",
   "version": "1.0.0",
   "description": "CLI application to list floatplane employees and Linus articles",
-  "repository": "github:graffic/floatplane-cli",
+  "repository": "github:graffic/fpm-cli",
   "author": "Javier Gonel <bolibic@gmail.com>",
   "license": "MIT",
   "private": true,
