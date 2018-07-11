@@ -9,10 +9,29 @@
   "bin": {
     "floatplane-cli": "./src/index.js"
   },
+  "scripts": {
+    "run": "node ./src/index.js",
+    "test": "standard && mocha",
+    "coverage": "istanbul cover _mocha",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "engines": {
+    "node": ">=10.5.0"
+  },
   "dependencies": {
     "axios": "^0.18.0"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
   }
 }
