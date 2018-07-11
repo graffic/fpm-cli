@@ -1,0 +1,4 @@
+# nodeenv environment directory
+env/
+# NodeJS dependencies
+node_modules/
