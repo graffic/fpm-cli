@@ -17,6 +17,8 @@ describe('integration test', () => {
     axiosMock
       .onGet('https://jsonplaceholder.typicode.com/posts').reply(200, POSTS)
       .onGet('https://jsonplaceholder.typicode.com/posts/42/comments').reply(200, COMMENTS)
+
+    // Expected output
     const expected = `Current Employees:
 James
 Bobby
