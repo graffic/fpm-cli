@@ -2,6 +2,10 @@ const axios = require('axios')
 
 const BASE_URL = 'https://jsonplaceholder.typicode.com'
 
+/**
+ * Get the data property of an object
+ * @param {Object} param0
+ */
 const getData = ({data}) => data
 
 /**

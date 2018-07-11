@@ -1,4 +1,9 @@
 /**
+ * Post and comments filtering and formatting
+ * @module posts
+ */
+
+/**
  * Creates a closure that filters a list of posts by keyword and title length
  * Usefult to give it to a promise in a .then clause: .then(filterPosts('a', 20))
  * @param {string} keyword
