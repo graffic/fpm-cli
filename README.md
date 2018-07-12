@@ -11,6 +11,7 @@ Rewrite of the bad cli app from FPM.
 - Clone: `git clone https://github.com/graffic/fpm-cli.git`
 - Install deps: `yarn` (or also `npm install`)
 - Run `yarn start` (or `npm run start`)
+- Run with logging: `DEBUG=1 yarn start`
 
 This allows you to run:
 - Test: `yarn test`
@@ -22,7 +23,8 @@ In a local environment or globally.
 
 - yarn: `yarn global add github:graffic/fpm-cli`
 - npm: `npm install -g github:graffic/fpm-cli`
-- Run with: `fpm-cli`
+- Run the app: `fpm-cli`
+- Run with logging: `DEBUG=1 fpm-cli`
 
 ## What I want to show.
 
