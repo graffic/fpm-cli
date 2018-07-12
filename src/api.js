@@ -1,3 +1,7 @@
+/**
+ * Interaction with jsonplaceholder API
+ * @module api
+ */
 const axios = require('axios')
 
 const BASE_URL = 'https://jsonplaceholder.typicode.com'

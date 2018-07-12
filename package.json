@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "bin": {
-    "floatplane-cli": "./src/index.js"
+    "fpm-cli": "./src/index.js"
   },
   "scripts": {
     "start": "node ./src/index.js",

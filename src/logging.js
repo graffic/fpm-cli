@@ -1,3 +1,8 @@
+/**
+ * Logging module.
+ * Enable with the env variable DEBUG=1
+ * @module logging
+ */
 const { createLogger, transports, format } = require('winston')
 
 const logger = createLogger({
